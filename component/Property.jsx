@@ -25,7 +25,7 @@ const Property = ({ property }) => {
                         justifyContent="space-between">
                         <Flex alignItems="center">
                             <Box paddingRight="3" color="green.400">{isVerified && <GoVerified />}</Box>
-                            <Text fontWeight='bold' fontSize='lg'>PKR {millify(price)}{rentFrequency && rentFrequency} </Text>
+                            <Text fontWeight='bold' fontSize='lg'>PKR {millify(price)} /{rentFrequency && rentFrequency} </Text>
                         </Flex>
                         {/* logo */}
                         <Box>
